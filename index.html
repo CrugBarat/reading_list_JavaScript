@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Reading List App</title>
+  <title>Reading List</title>
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <script src="js/app.js"></script>
 </head>
 <body>
+  <h1>Reading List</h1>
+  <section>
   <form id="new-item-form">
     <div id="form-wrapper">
       <div class="form-item">
@@ -28,13 +30,12 @@
           <option value="Blog Post">Blog Post</option>
         </select>
       </div>
+      <input id="save" type="submit" value="save"/>
     </div>
-    <input id="save" type="submit" value="save"/>
   </form>
-
-  <h1>Reading List</h1>
   <div class="grid">
   <ul id="reading-list"></ul>
   </div>
+  </section>
 </body>
 </html>

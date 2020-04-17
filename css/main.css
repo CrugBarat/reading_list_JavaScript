@@ -1,5 +1,17 @@
 body {
-  font-family: Menlo;
+  color: #FDFDFD;
+  font-family: Times Roman;
+  background-image: url('wood.jpg');
+}
+
+section {
+  color: #414141;
+  background-repeat: no-repeat;
+  background-image: url('book.png');
+  background-size: 100%;
+  width: 90vw;
+  padding-left: 10vw;
+  padding-bottom: 75vh;
 }
 
 #reading-list{
@@ -9,7 +21,7 @@ body {
 }
 
 .cell {
-  border: solid 1px #414141;
+  border: solid 3px #414141;
   margin: 1vw 1vw;
   padding: 1vw 1vw;
   border-radius: 5%;
@@ -31,4 +43,11 @@ body {
 
 li {
   list-style-type: none;
+}
+
+#form-wrapper {
+ border-radius: 5px;
+ width: 15vw;
+ position: relative;
+ font-size: 28px;
 }
