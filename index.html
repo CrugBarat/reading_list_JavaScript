@@ -7,37 +7,38 @@
   <script src="js/app.js"></script>
 </head>
 <body>
-  <h1 style="font-size:7vw; text-align:center;">Reading List</h1>
+  <h1>Reading List</h1>
   <section>
-    <p style="font-size:2.5vw; text-align:left; padding-left:2vh; padding-top:5vh; text-decoration:underline;">Chapter 1: Add Book</p>
-    <form id="new-item-form">
-      <div id="form-wrapper">
-        <div class="form-item">
-          <label style="font-size:2vw; text-align:left; padding:2vh; padding-right:2vh;" for="title" class="primary">Title</label>
-          <input type="text" id="title" required/>
+    <div class="form-container">
+      <h2 class="chapters" style="text-decoration:underline;">Chapter 1: Add</h2>
+      <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="title" class="primary">Title</label>
+            <input type="text" id="title" required/>
+          </div>
+          <div class="form-item">
+            <label for="author" class="primary">Author</label>
+            <input type="text" id="author" required/>
+          </div>
+          <div class="form-item">
+            <label for="category" class="primary">Category</label>
+            <select id="category">
+              <option value="" disabled selected></option>
+              <option value="Book">Book</option>
+              <option value="Article">Article</option>
+              <option value="Blog Post">Blog Post</option>
+            </select>
+          </div>
+          <div class="butts">
+            <input id="save" type="submit" value="Add"/>
+            <button id="delete-all" type="submit">Delete All</button>
+          </div>
         </div>
-
-        <div class="form-item">
-          <label style="font-size:2vw; text-align:left; padding:2vh;" for="author" class="primary">Author</label>
-          <input type="text" id="author" required/>
-        </div>
-
-        <div class="form-item">
-          <label style="font-size:2vw; text-align:left; padding:2vh;" for="category" class="primary">Category</label>
-          <select id="category">
-            <option value="" disabled selected></option>
-            <option value="Book">Book</option>
-            <option value="Article">Article</option>
-            <option value="Blog Post">Blog Post</option>
-          </select>
-        </div>
-        <div style="padding-top:3vh; padding-left:1.5vw;">
-        <input id="save" type="submit" value="Add"/>
-        <button id="delete-all" type="submit">Delete All</button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
     <div class="grid">
+      <h2 class="chapters" style="text-decoration:underline; padding-top:2vh;">Chapter 2: View</h2>
       <ul id="reading-list"></ul>
     </div>
   </section>
