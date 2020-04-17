@@ -12,7 +12,7 @@ This exercise was tasked to me by CodeClan, Glasgow where I studied towards a PD
 
 ---
 
-#Events Lab
+# Events Lab
 
 Lab Duration: 120 minutes
 
