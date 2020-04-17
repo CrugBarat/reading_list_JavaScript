@@ -14,9 +14,9 @@ This exercise was tasked to me by CodeClan, Glasgow where I studied towards a PD
 
 # Events Lab
 
-Lab Duration: 120 minutes
+**Lab Duration**: 120 minutes
 
-**Brief**
+**Brief**: 
 Your task is to create a Reading List app that allow a user to submit items they intend to read later and view them on the page. Handle the form’s submission and display the submitted details on the page.
 
 ---
