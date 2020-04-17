@@ -1,0 +1,34 @@
+body {
+  font-family: Menlo;
+}
+
+#reading-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cell {
+  border: solid 1px #414141;
+  margin: 1vw 1vw;
+  padding: 1vw 1vw;
+  border-radius: 5%;
+  /* width: 100px; */
+  flex: 1, 0, auto;
+}
+
+.cell:hover {
+  background-color: #B200FF;
+}
+
+@media all and ( max-width: 500px ) {
+  #reading-list{
+    flex-direction: column;
+    width: 70vw;
+    text-align: center;
+  }
+}
+
+li {
+  list-style-type: none;
+}
